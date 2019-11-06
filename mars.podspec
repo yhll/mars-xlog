@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = "9.0"
   
-  s.source        = { :http => "http://192.168.6.59:8088/repository/cpic-product-releases/com/cpic/components/framework/commonsdk/1.0.0/commonsdk-1.0.0.zip" }
+  s.source        = { :http => "https://raw.githubusercontent.com/yhll/mars-xlog/master/mars.framework.zip" }
 
   s.source_files  = "**/*.{h}"
 
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 
   s.description  = "desc"
 
-  s.homepage     = "http://192.168.6.59:8088/repository/cpic-product-releases/com/cpic/components/framework/commonsdk/1.0.0/mars.podspec"
+  s.homepage     = "https://raw.githubusercontent.com/yhll/mars-xlog/master/mars.podspec"
  
   s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/mars"' }
   s.license      = "MIT"
